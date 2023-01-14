@@ -1,10 +1,9 @@
 from tkinter import *
 
 App = Tk()
-App.title("Dice Roller")
+App.geometry('300x300')
 
-msg = Label(App, text="Dice Roller", width=300)
-msg.grid(row=0, column=0, columnspan=2)
+title = Label(App, text='Dice Roller')
+title.grid(row=0, column=0, columnspan=3)
 
 App.mainloop()
-
