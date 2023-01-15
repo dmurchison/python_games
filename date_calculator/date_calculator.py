@@ -4,6 +4,7 @@ from datetime import datetime
 
 App = Tk()
 App.title("Date Calculator")
+App.geometry("500x500")
 
 msg = Label(App, text='Enter a date')
 msg.grid(row=0, column=0, columnspan=5)
